@@ -1,4 +1,5 @@
 // Clang only: std::variant can't hold non-trivially destructible types
+// https://github.com/llvm/llvm-project/issues/57524
 
 #include <type_traits>
 #include <variant>
